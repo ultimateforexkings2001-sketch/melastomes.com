@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "tibouchina",
+    "file": "tibouchina.html",
+    "title": "Tibouchina: The Princess Flower Genus",
+    "category": "Genus Profiles",
+    "excerpt": "A guide to Tibouchina, one of the most widely cultivated ornamental genera in the Melastomataceae family, prized for its velvety leaves and purple blooms.",
+    "date": "2026-06-02",
+    "readTime": "7 min read",
+    "image": "https://source.unsplash.com/700x460/?purple,flower,garden"
+  },
+  {
+    "slug": "melastomataceae-family-guide",
+    "file": "articles/melastomataceae-family-guide.html",
+    "title": "Melastomataceae: A Complete Family Overview",
+    "category": "Taxonomy",
+    "excerpt": "An introduction to the Melastomataceae family — where it fits in the plant kingdom, its defining traits, and why it matters to botanists and gardeners alike.",
+    "date": "2026-05-28",
+    "readTime": "9 min read",
+    "image": "https://source.unsplash.com/700x460/?tropical,leaves,botanical"
+  },
+  {
+    "slug": "growing-melastomes-at-home",
+    "file": "articles/growing-melastomes-at-home.html",
+    "title": "Growing Melastomes at Home: A Beginner's Care Guide",
+    "category": "Growing Guide",
+    "excerpt": "Light, soil, water, and pruning basics for keeping melastome family plants healthy indoors or in a home garden.",
+    "date": "2026-06-10",
+    "readTime": "6 min read",
+    "image": "https://source.unsplash.com/700x460/?houseplant,pot,indoor"
+  }
+]
