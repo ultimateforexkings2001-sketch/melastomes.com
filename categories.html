@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Categories | Melastomes.com</title>
+<meta name="description" content="Browse Melastomes.com articles by category: Taxonomy, Genus Profiles, and Growing Guides.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar"><div class="wrap"><span>A growing reference for the Melastomataceae plant family.</span>
+<span class="socials"><a href="#">FB</a><a href="#">TW</a><a href="#">IN</a></span></div></div>
+
+<header class="site-header">
+  <div class="wrap nav-row">
+    <a href="index.html" class="brand">
+      <div class="brand-mark">🌿</div>
+      <div class="brand-text"><div class="title">Melastomes.com</div><div class="subtitle">Taxonomy • Genus Profiles • Growing Guides</div></div>
+    </a>
+    <nav class="main-nav"><ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="articles.html">Articles</a></li>
+      <li><a href="categories.html" class="active">Categories</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+    <div class="nav-actions"><a href="index.html#subscribe" class="btn btn-primary">Subscribe</a></div>
+  </div>
+</header>
+
+<div class="page-banner" id="banner"><div class="wrap"><h1>Browse by Category</h1><p>Filter articles by Genus Profiles, Taxonomy, Growing Guide, or Ecology & Uses.</p></div></div>
+
+<section class="section">
+  <div class="wrap">
+    <div class="filter-row" id="filter-row">
+      <button class="filter-chip active" data-cat="all">All (20)</button>
+    </div>
+    <div class="card-grid" id="cat-grid"></div>
+    <div class="ad-slot leaderboard">Ad / Affiliate Banner Space — 728×90</div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap"><div class="footer-bottom">
+    <span>© 2026 Melastomes.com</span>
+    <span>Some links on this site may be affiliate links.</span>
+  </div></div>
+</footer>
+
+<script>
+const IMAGE_MAP = {
+  tibouchina: "https://commons.wikimedia.org/wiki/Special:FilePath/Tibouchina_urvilleana_4.jpg",
+  medinilla: "https://commons.wikimedia.org/wiki/Special:FilePath/Medinilla_loranthoides_petiole.jpg",
+  family: "https://commons.wikimedia.org/wiki/Special:FilePath/Flowers_%40_Tokyo_Municipal_Oshima_Park_(9609607201).jpg",
+  potted: "https://commons.wikimedia.org/wiki/Special:FilePath/Big_potted_tree_like_plant.JPG",
+  melastoma: "https://commons.wikimedia.org/wiki/Special:FilePath/Singapore_rhododendron_(Melastoma_malabathricum).jpg"
+};
+document.getElementById('banner').style.setProperty('--banner-img', `url(${IMAGE_MAP.family}?width=1600)`);
+fetch('articles.json').then(r => r.json()).then(articles => {
+  const grid = document.getElementById('cat-grid');
+  const filterRow = document.getElementById('filter-row');
+  const categories = [...new Set(articles.map(a => a.category))];
+
+  categories.forEach(cat => {
+    const count = articles.filter(a => a.category === cat).length;
+    const btn = document.createElement('button');
+    btn.className = 'filter-chip';
+    btn.dataset.cat = cat;
+    btn.textContent = `${cat} (${count})`;
+    filterRow.appendChild(btn);
+  });
+
+  function render(filter) {
+    grid.innerHTML = '';
+    articles
+      .filter(a => filter === 'all' || a.category === filter)
+      .forEach(a => {
+        grid.innerHTML += `
+          <a class="article-card" href="${a.file}">
+            <div class="thumb"><img src="${IMAGE_MAP[a.image]}?width=600" alt="${a.title}"></div>
+            <div class="body">
+              <span class="tag">${a.category}</span>
+              <h3>${a.title}</h3>
+              <p>${a.excerpt}</p>
+              <div class="meta">${new Date(a.date).toLocaleDateString('en-US', {month:'long', day:'numeric', year:'numeric'})} • ${a.readTime}</div>
+            </div>
+          </a>`;
+      });
+  }
+
+  filterRow.addEventListener('click', e => {
+    if (e.target.tagName !== 'BUTTON') return;
+    [...filterRow.children].forEach(c => c.classList.remove('active'));
+    e.target.classList.add('active');
+    render(e.target.dataset.cat);
+  });
+
+  render('all');
+});
+</script>
+
+</body>
+</html>
