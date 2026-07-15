@@ -1,25 +1,402 @@
 [
-  {"slug":"tibouchina","file":"tibouchina.html","title":"Tibouchina: The Princess Flower Genus","category":"Genus Profiles","excerpt":"A guide to Tibouchina, one of the most widely cultivated ornamental genera in the Melastomataceae family.","date":"2026-06-02","readTime":"7 min read","image":"tibouchina"},
-  {"slug":"melastomataceae-family-guide","file":"articles/melastomataceae-family-guide.html","title":"Melastomataceae: A Complete Family Overview","category":"Taxonomy","excerpt":"An introduction to the Melastomataceae family — where it fits in the plant kingdom and why it matters.","date":"2026-05-28","readTime":"9 min read","image":"family"},
-  {"slug":"growing-melastomes-at-home","file":"articles/growing-melastomes-at-home.html","title":"Growing Melastomes at Home: A Beginner's Care Guide","category":"Growing Guide","excerpt":"Light, soil, water, and pruning basics for keeping melastome plants healthy at home.","date":"2026-06-10","readTime":"6 min read","image":"potted"},
-
-  {"slug":"miconia-genus-overview","file":"articles/miconia-genus-overview.html","title":"Miconia: A Genus of Giants and Cautionary Tales","category":"Genus Profiles","excerpt":"Miconia is one of the largest genera in the plant kingdom — and one species became a notorious invasive.","date":"2026-06-12","readTime":"7 min read","image":"family"},
-  {"slug":"medinilla-showy-epiphyte","file":"articles/medinilla-showy-epiphyte.html","title":"Medinilla: The Showy Epiphyte of the Family","category":"Genus Profiles","excerpt":"Medinilla brings hanging, chandelier-like flower clusters to a family better known for shrubs.","date":"2026-06-15","readTime":"6 min read","image":"medinilla"},
-  {"slug":"melastoma-malabathricum","file":"articles/melastoma-malabathricum.html","title":"Melastoma malabathricum: The Singapore Rhododendron","category":"Genus Profiles","excerpt":"Despite the common name, this widespread Asian shrub has nothing to do with true rhododendrons.","date":"2026-06-17","readTime":"6 min read","image":"melastoma"},
-  {"slug":"memecylon-overlooked-relative","file":"articles/memecylon-overlooked-relative.html","title":"Memecylon: The Overlooked Melastome Relative","category":"Genus Profiles","excerpt":"A genus that shows how messy plant classification can get, even for close relatives.","date":"2026-06-19","readTime":"6 min read","image":"family"},
-  {"slug":"rhexia-meadow-beauties","file":"articles/rhexia-meadow-beauties.html","title":"Rhexia: North America's Native Meadow Beauties","category":"Genus Profiles","excerpt":"One of the few Melastomataceae genera native to temperate North America.","date":"2026-06-21","readTime":"6 min read","image":"family"},
-  {"slug":"blakea-neotropical-epiphytes","file":"articles/blakea-neotropical-epiphytes.html","title":"Blakea: Understanding a Neotropical Epiphytic Genus","category":"Genus Profiles","excerpt":"A cloud-forest genus that spends much of its life growing on other trees.","date":"2026-06-23","readTime":"7 min read","image":"medinilla"},
-
-  {"slug":"plant-family-classification-basics","file":"articles/plant-family-classification-basics.html","title":"Plant Family Classification: How Melastomataceae Fits In","category":"Taxonomy","excerpt":"A plain-English look at how botanists organize plants into orders, families, and genera.","date":"2026-06-25","readTime":"7 min read","image":"family"},
-  {"slug":"reading-a-botanical-name","file":"articles/reading-a-botanical-name.html","title":"Reading a Botanical Name: A Beginner's Guide","category":"Taxonomy","excerpt":"What genus, species, and author citations actually mean when you see a scientific name.","date":"2026-06-27","readTime":"5 min read","image":"family"},
-  {"slug":"how-new-species-get-described","file":"articles/how-new-species-get-described.html","title":"How New Plant Species Get Described","category":"Taxonomy","excerpt":"Melastomataceae species are still being formally described. Here's what that process involves.","date":"2026-06-29","readTime":"6 min read","image":"medinilla"},
-  {"slug":"buzz-pollination-in-melastomes","file":"articles/buzz-pollination-in-melastomes.html","title":"Buzz Pollination: How Bees Unlock Melastome Flowers","category":"Ecology & Uses","excerpt":"Many melastomes hide their pollen behind a mechanism only certain bees can open.","date":"2026-07-01","readTime":"6 min read","image":"melastoma"},
-  {"slug":"why-some-melastomes-are-invasive","file":"articles/why-some-melastomes-are-invasive.html","title":"Why Some Melastomes Are Considered Invasive Weeds","category":"Ecology & Uses","excerpt":"The same traits that make melastomes easy to grow can make a few species hard to control.","date":"2026-07-03","readTime":"6 min read","image":"melastoma"},
-  {"slug":"melastomes-in-traditional-medicine","file":"articles/melastomes-in-traditional-medicine.html","title":"Melastomataceae in Traditional Medicine: What the Research Says","category":"Ecology & Uses","excerpt":"Several melastomes have long histories in folk medicine. Here's a grounded look at the evidence.","date":"2026-07-05","readTime":"7 min read","image":"family"},
-
-  {"slug":"repotting-a-melastome","file":"articles/repotting-a-melastome.html","title":"Repotting a Melastome: When and How","category":"Growing Guide","excerpt":"Signs your plant has outgrown its pot, and how to repot without stressing it.","date":"2026-06-13","readTime":"5 min read","image":"potted"},
-  {"slug":"propagating-tibouchina-from-cuttings","file":"articles/propagating-tibouchina-from-cuttings.html","title":"Propagating Tibouchina from Cuttings","category":"Growing Guide","excerpt":"A step-by-step method for growing new Tibouchina plants from a healthy parent.","date":"2026-06-20","readTime":"6 min read","image":"tibouchina"},
-  {"slug":"common-pests-on-melastome-houseplants","file":"articles/common-pests-on-melastome-houseplants.html","title":"Common Pests on Melastome Houseplants","category":"Growing Guide","excerpt":"What to look for, and how to deal with the handful of pests that actually bother these plants.","date":"2026-06-26","readTime":"6 min read","image":"potted"},
-  {"slug":"winter-care-for-tender-melastomes","file":"articles/winter-care-for-tender-melastomes.html","title":"Winter Care for Tender Melastomes","category":"Growing Guide","excerpt":"How to get frost-sensitive melastomes through a cold season without losing them.","date":"2026-07-02","readTime":"5 min read","image":"potted"},
-  {"slug":"soil-and-fertilizer-for-melastomes","file":"articles/soil-and-fertilizer-for-melastomes.html","title":"Choosing Soil and Fertilizer for Acid-Loving Melastomes","category":"Growing Guide","excerpt":"Why the wrong soil pH quietly stunts melastomes, and how to get it right.","date":"2026-07-06","readTime":"6 min read","image":"potted"}
+  {
+    "slug": "tibouchina",
+    "file": "tibouchina.html",
+    "title": "Tibouchina: The Princess Flower Genus",
+    "category": "Genus Profiles",
+    "excerpt": "A guide to Tibouchina, one of the most widely cultivated ornamental genera in the Melastomataceae family.",
+    "date": "2026-06-02",
+    "readTime": "7 min read",
+    "image": "tibouchina"
+  },
+  {
+    "slug": "melastomataceae-family-guide",
+    "file": "articles/melastomataceae-family-guide.html",
+    "title": "Melastomataceae: A Complete Family Overview",
+    "category": "Taxonomy",
+    "excerpt": "An introduction to the Melastomataceae family — where it fits in the plant kingdom and why it matters.",
+    "date": "2026-05-28",
+    "readTime": "9 min read",
+    "image": "family"
+  },
+  {
+    "slug": "growing-melastomes-at-home",
+    "file": "articles/growing-melastomes-at-home.html",
+    "title": "Growing Melastomes at Home: A Beginner's Care Guide",
+    "category": "Growing Guide",
+    "excerpt": "Light, soil, water, and pruning basics for keeping melastome plants healthy at home.",
+    "date": "2026-06-10",
+    "readTime": "6 min read",
+    "image": "potted"
+  },
+  {
+    "slug": "miconia-genus-overview",
+    "file": "articles/miconia-genus-overview.html",
+    "title": "Miconia: A Genus of Giants and Cautionary Tales",
+    "category": "Genus Profiles",
+    "excerpt": "Miconia is one of the largest genera in the plant kingdom — and one species became a notorious invasive.",
+    "date": "2026-06-12",
+    "readTime": "7 min read",
+    "image": "family"
+  },
+  {
+    "slug": "medinilla-showy-epiphyte",
+    "file": "articles/medinilla-showy-epiphyte.html",
+    "title": "Medinilla: The Showy Epiphyte of the Family",
+    "category": "Genus Profiles",
+    "excerpt": "Medinilla brings hanging, chandelier-like flower clusters to a family better known for shrubs.",
+    "date": "2026-06-15",
+    "readTime": "6 min read",
+    "image": "medinilla"
+  },
+  {
+    "slug": "melastoma-malabathricum",
+    "file": "articles/melastoma-malabathricum.html",
+    "title": "Melastoma malabathricum: The Singapore Rhododendron",
+    "category": "Genus Profiles",
+    "excerpt": "Despite the common name, this widespread Asian shrub has nothing to do with true rhododendrons.",
+    "date": "2026-06-17",
+    "readTime": "6 min read",
+    "image": "melastoma"
+  },
+  {
+    "slug": "memecylon-overlooked-relative",
+    "file": "articles/memecylon-overlooked-relative.html",
+    "title": "Memecylon: The Overlooked Melastome Relative",
+    "category": "Genus Profiles",
+    "excerpt": "A genus that shows how messy plant classification can get, even for close relatives.",
+    "date": "2026-06-19",
+    "readTime": "6 min read",
+    "image": "family"
+  },
+  {
+    "slug": "rhexia-meadow-beauties",
+    "file": "articles/rhexia-meadow-beauties.html",
+    "title": "Rhexia: North America's Native Meadow Beauties",
+    "category": "Genus Profiles",
+    "excerpt": "One of the few Melastomataceae genera native to temperate North America.",
+    "date": "2026-06-21",
+    "readTime": "6 min read",
+    "image": "family"
+  },
+  {
+    "slug": "blakea-neotropical-epiphytes",
+    "file": "articles/blakea-neotropical-epiphytes.html",
+    "title": "Blakea: Understanding a Neotropical Epiphytic Genus",
+    "category": "Genus Profiles",
+    "excerpt": "A cloud-forest genus that spends much of its life growing on other trees.",
+    "date": "2026-06-23",
+    "readTime": "7 min read",
+    "image": "medinilla"
+  },
+  {
+    "slug": "plant-family-classification-basics",
+    "file": "articles/plant-family-classification-basics.html",
+    "title": "Plant Family Classification: How Melastomataceae Fits In",
+    "category": "Taxonomy",
+    "excerpt": "A plain-English look at how botanists organize plants into orders, families, and genera.",
+    "date": "2026-06-25",
+    "readTime": "7 min read",
+    "image": "family"
+  },
+  {
+    "slug": "reading-a-botanical-name",
+    "file": "articles/reading-a-botanical-name.html",
+    "title": "Reading a Botanical Name: A Beginner's Guide",
+    "category": "Taxonomy",
+    "excerpt": "What genus, species, and author citations actually mean when you see a scientific name.",
+    "date": "2026-06-27",
+    "readTime": "5 min read",
+    "image": "family"
+  },
+  {
+    "slug": "how-new-species-get-described",
+    "file": "articles/how-new-species-get-described.html",
+    "title": "How New Plant Species Get Described",
+    "category": "Taxonomy",
+    "excerpt": "Melastomataceae species are still being formally described. Here's what that process involves.",
+    "date": "2026-06-29",
+    "readTime": "6 min read",
+    "image": "medinilla"
+  },
+  {
+    "slug": "buzz-pollination-in-melastomes",
+    "file": "articles/buzz-pollination-in-melastomes.html",
+    "title": "Buzz Pollination: How Bees Unlock Melastome Flowers",
+    "category": "Ecology & Uses",
+    "excerpt": "Many melastomes hide their pollen behind a mechanism only certain bees can open.",
+    "date": "2026-07-01",
+    "readTime": "6 min read",
+    "image": "melastoma"
+  },
+  {
+    "slug": "why-some-melastomes-are-invasive",
+    "file": "articles/why-some-melastomes-are-invasive.html",
+    "title": "Why Some Melastomes Are Considered Invasive Weeds",
+    "category": "Ecology & Uses",
+    "excerpt": "The same traits that make melastomes easy to grow can make a few species hard to control.",
+    "date": "2026-07-03",
+    "readTime": "6 min read",
+    "image": "melastoma"
+  },
+  {
+    "slug": "melastomes-in-traditional-medicine",
+    "file": "articles/melastomes-in-traditional-medicine.html",
+    "title": "Melastomataceae in Traditional Medicine: What the Research Says",
+    "category": "Ecology & Uses",
+    "excerpt": "Several melastomes have long histories in folk medicine. Here's a grounded look at the evidence.",
+    "date": "2026-07-05",
+    "readTime": "7 min read",
+    "image": "family"
+  },
+  {
+    "slug": "repotting-a-melastome",
+    "file": "articles/repotting-a-melastome.html",
+    "title": "Repotting a Melastome: When and How",
+    "category": "Growing Guide",
+    "excerpt": "Signs your plant has outgrown its pot, and how to repot without stressing it.",
+    "date": "2026-06-13",
+    "readTime": "5 min read",
+    "image": "potted"
+  },
+  {
+    "slug": "propagating-tibouchina-from-cuttings",
+    "file": "articles/propagating-tibouchina-from-cuttings.html",
+    "title": "Propagating Tibouchina from Cuttings",
+    "category": "Growing Guide",
+    "excerpt": "A step-by-step method for growing new Tibouchina plants from a healthy parent.",
+    "date": "2026-06-20",
+    "readTime": "6 min read",
+    "image": "tibouchina"
+  },
+  {
+    "slug": "common-pests-on-melastome-houseplants",
+    "file": "articles/common-pests-on-melastome-houseplants.html",
+    "title": "Common Pests on Melastome Houseplants",
+    "category": "Growing Guide",
+    "excerpt": "What to look for, and how to deal with the handful of pests that actually bother these plants.",
+    "date": "2026-06-26",
+    "readTime": "6 min read",
+    "image": "potted"
+  },
+  {
+    "slug": "winter-care-for-tender-melastomes",
+    "file": "articles/winter-care-for-tender-melastomes.html",
+    "title": "Winter Care for Tender Melastomes",
+    "category": "Growing Guide",
+    "excerpt": "How to get frost-sensitive melastomes through a cold season without losing them.",
+    "date": "2026-07-02",
+    "readTime": "5 min read",
+    "image": "potted"
+  },
+  {
+    "slug": "soil-and-fertilizer-for-melastomes",
+    "file": "articles/soil-and-fertilizer-for-melastomes.html",
+    "title": "Choosing Soil and Fertilizer for Acid-Loving Melastomes",
+    "category": "Growing Guide",
+    "excerpt": "Why the wrong soil pH quietly stunts melastomes, and how to get it right.",
+    "date": "2026-07-06",
+    "readTime": "6 min read",
+    "image": "potted"
+  },
+  {
+    "slug": "dissotis-african-melastomes",
+    "file": "articles/dissotis-african-melastomes.html",
+    "title": "Dissotis: The African Melastomes You've Probably Never Grown",
+    "category": "Genus Profiles",
+    "excerpt": "Most melastome growers know Tibouchina and Miconia. Dissotis, Africa's contribution to the family, deserves a look too.",
+    "date": "2026-07-08",
+    "readTime": "6 min read",
+    "image": "melastoma"
+  },
+  {
+    "slug": "sonerila-terrarium-melastomes",
+    "file": "articles/sonerila-terrarium-melastomes.html",
+    "title": "Sonerila: Tiny Melastomes Built for Terrariums",
+    "category": "Genus Profiles",
+    "excerpt": "Most melastomes think big. Sonerila is the genus that stayed small, and it fits life under glass better than almost anything else in the family.",
+    "date": "2026-07-09",
+    "readTime": "5 min read",
+    "image": "family"
+  },
+  {
+    "slug": "bertolonia-jewel-leaf",
+    "file": "articles/bertolonia-jewel-leaf.html",
+    "title": "Bertolonia: Jewel-Leaf Melastomes for Low Light",
+    "category": "Genus Profiles",
+    "excerpt": "Bertolonia trades big flowers for some of the most striking foliage in the entire family &mdash; and it thrives in the low light most houseplants hate.",
+    "date": "2026-07-10",
+    "readTime": "6 min read",
+    "image": "family"
+  },
+  {
+    "slug": "heterocentron-spanish-shawl",
+    "file": "articles/heterocentron-spanish-shawl.html",
+    "title": "Heterocentron: The Spanish Shawl and Its Trailing Cousins",
+    "category": "Genus Profiles",
+    "excerpt": "Most of this family grows upright. Heterocentron macrostachyum, the Spanish shawl, does the opposite &mdash; and it's one of the easiest melastomes to grow outdoors.",
+    "date": "2026-07-11",
+    "readTime": "5 min read",
+    "image": "melastoma"
+  },
+  {
+    "slug": "osbeckia-old-world-melastomes",
+    "file": "articles/osbeckia-old-world-melastomes.html",
+    "title": "Osbeckia: Old World Melastomes with a Long Folk History",
+    "category": "Genus Profiles",
+    "excerpt": "Osbeckia has been used in traditional medicine across Asia and Africa for generations. Here's what the genus actually looks like botanically.",
+    "date": "2026-07-12",
+    "readTime": "6 min read",
+    "image": "family"
+  },
+  {
+    "slug": "centradenia-shade-tolerant",
+    "file": "articles/centradenia-shade-tolerant.html",
+    "title": "Centradenia: A Shade-Tolerant Melastome Worth Knowing",
+    "category": "Genus Profiles",
+    "excerpt": "Centradenia does something few melastomes manage: it flowers reliably in part shade, which makes it useful in spots where Tibouchina simply won't perform.",
+    "date": "2026-07-13",
+    "readTime": "6 min read",
+    "image": "potted"
+  },
+  {
+    "slug": "monochaetum-andean-melastome",
+    "file": "articles/monochaetum-andean-melastome.html",
+    "title": "Monochaetum: A High-Altitude Andean Melastome",
+    "category": "Genus Profiles",
+    "excerpt": "While most melastomes are lowland tropical plants, Monochaetum has adapted to cool, high-elevation cloud forest &mdash; and it needs different treatment because of it.",
+    "date": "2026-07-14",
+    "readTime": "6 min read",
+    "image": "melastoma"
+  },
+  {
+    "slug": "clidemia-hirta-global-weed",
+    "file": "articles/clidemia-hirta-global-weed.html",
+    "title": "Clidemia hirta: The Melastome That Became a Global Weed",
+    "category": "Ecology & Uses",
+    "excerpt": "Clidemia hirta is a case study in how an unremarkable-looking shrub becomes one of the most disruptive invasive plants on tropical islands.",
+    "date": "2026-07-15",
+    "readTime": "7 min read",
+    "image": "melastoma"
+  },
+  {
+    "slug": "tococa-ant-plant-mutualism",
+    "file": "articles/tococa-ant-plant-mutualism.html",
+    "title": "Tococa and the Ant-Plants of the Melastome Family",
+    "category": "Ecology & Uses",
+    "excerpt": "A handful of Amazonian melastomes grow hollow leaf pouches specifically to house colonies of ants. It's one of the stranger relationships in the plant kingdom.",
+    "date": "2026-07-16",
+    "readTime": "7 min read",
+    "image": "family"
+  },
+  {
+    "slug": "bird-dispersed-melastome-fruits",
+    "file": "articles/bird-dispersed-melastome-fruits.html",
+    "title": "Bird-Dispersed Melastome Fruits: Who Eats What",
+    "category": "Ecology & Uses",
+    "excerpt": "The purple berries on a wild melastome aren't just decorative &mdash; they're a deliberate strategy, and different bird species respond to them differently.",
+    "date": "2026-07-17",
+    "readTime": "6 min read",
+    "image": "melastoma"
+  },
+  {
+    "slug": "history-of-melastomataceae-in-cultivation",
+    "file": "articles/history-of-melastomataceae-in-cultivation.html",
+    "title": "A Short History of Melastomataceae in Ornamental Horticulture",
+    "category": "Ecology & Uses",
+    "excerpt": "Tibouchina didn't become a garden staple by accident. Here's a brief look at how this family moved from herbarium specimens to nursery shelves.",
+    "date": "2026-07-18",
+    "readTime": "7 min read",
+    "image": "tibouchina"
+  },
+  {
+    "slug": "pleroma-vs-tibouchina",
+    "file": "articles/pleroma-vs-tibouchina.html",
+    "title": "Pleroma vs Tibouchina: Why Your Plant Tag Might Be Wrong",
+    "category": "Taxonomy",
+    "excerpt": "A 2019 taxonomic revision moved most of the species gardeners know as Tibouchina into a different genus, Pleroma. Nurseries haven't caught up, and it shows.",
+    "date": "2026-07-19",
+    "readTime": "7 min read",
+    "image": "tibouchina"
+  },
+  {
+    "slug": "reading-melastome-leaf-venation",
+    "file": "articles/reading-melastome-leaf-venation.html",
+    "title": "Reading Leaf Venation: The One Trick That Helps ID a Melastome",
+    "category": "Taxonomy",
+    "excerpt": "You can identify a plant as a likely melastome from across the room, without seeing a single flower &mdash; if you know what to look for in the leaf veins.",
+    "date": "2026-07-20",
+    "readTime": "6 min read",
+    "image": "family"
+  },
+  {
+    "slug": "poricidal-anthers-explained",
+    "file": "articles/poricidal-anthers-explained.html",
+    "title": "Poricidal Anthers Explained: The Pepper-Shaker Flower",
+    "category": "Taxonomy",
+    "excerpt": "Melastome flowers don't release their pollen the way most flowers do. They shake it out through tiny pores &mdash; and only certain bees know how to trigger it.",
+    "date": "2026-07-21",
+    "readTime": "6 min read",
+    "image": "melastoma"
+  },
+  {
+    "slug": "why-melastomataceae-cluster-in-tropics",
+    "file": "articles/why-melastomataceae-cluster-in-tropics.html",
+    "title": "Why Melastomataceae Cluster in the Tropics",
+    "category": "Taxonomy",
+    "excerpt": "With a small handful of exceptions, this entire family is tropical. That's not a coincidence &mdash; it traces back to where and when the family originated.",
+    "date": "2026-07-22",
+    "readTime": "6 min read",
+    "image": "family"
+  },
+  {
+    "slug": "growing-tibouchina-from-seed",
+    "file": "articles/growing-tibouchina-from-seed.html",
+    "title": "Growing Tibouchina from Seed",
+    "category": "Growing Guide",
+    "excerpt": "Cuttings are faster, but growing Tibouchina from seed is cheap, produces more plants, and isn't as hard as it sounds if you get the basics right.",
+    "date": "2026-07-23",
+    "readTime": "6 min read",
+    "image": "tibouchina"
+  },
+  {
+    "slug": "pruning-tibouchina-for-bloom",
+    "file": "articles/pruning-tibouchina-for-bloom.html",
+    "title": "Pruning Tibouchina for Shape and Repeat Bloom",
+    "category": "Growing Guide",
+    "excerpt": "An unpruned Tibouchina gets leggy and sparse fast. A little cutting at the right time of year keeps it dense, shapely, and flowering harder.",
+    "date": "2026-07-24",
+    "readTime": "5 min read",
+    "image": "tibouchina"
+  },
+  {
+    "slug": "melastome-light-requirements",
+    "file": "articles/melastome-light-requirements.html",
+    "title": "How Much Light Do Melastomes Actually Need",
+    "category": "Growing Guide",
+    "excerpt": "Light needs vary a lot across this family &mdash; a rule that works for Tibouchina will fail badly on Medinilla or Bertolonia. Here's how to tell what your plant actually wants.",
+    "date": "2026-07-25",
+    "readTime": "6 min read",
+    "image": "potted"
+  },
+  {
+    "slug": "fixing-yellow-leaves-melastome",
+    "file": "articles/fixing-yellow-leaves-melastome.html",
+    "title": "Fixing Yellow Leaves on a Potted Melastome",
+    "category": "Growing Guide",
+    "excerpt": "Yellowing leaves are one of the most common complaints with potted melastomes &mdash; and one of the most commonly misdiagnosed. Here's how to actually narrow it down.",
+    "date": "2026-07-26",
+    "readTime": "6 min read",
+    "image": "potted"
+  },
+  {
+    "slug": "watering-mistakes-melastomes",
+    "file": "articles/watering-mistakes-melastomes.html",
+    "title": "Watering Melastomes: The Mistakes That Actually Kill Them",
+    "category": "Growing Guide",
+    "excerpt": "More potted melastomes die from watering mistakes than from pests, cold, or bad light combined. Most of it comes down to a couple of habits worth breaking.",
+    "date": "2026-07-27",
+    "readTime": "6 min read",
+    "image": "potted"
+  }
 ]
