@@ -52,8 +52,21 @@ const IMAGE_MAP = {
   medinilla: "https://commons.wikimedia.org/wiki/Special:FilePath/Medinilla_loranthoides_petiole.jpg",
   family: "https://commons.wikimedia.org/wiki/Special:FilePath/Flowers_%40_Tokyo_Municipal_Oshima_Park_(9609607201).jpg",
   potted: "https://commons.wikimedia.org/wiki/Special:FilePath/Big_potted_tree_like_plant.JPG",
-  melastoma: "https://commons.wikimedia.org/wiki/Special:FilePath/Singapore_rhododendron_(Melastoma_malabathricum).jpg"
+  melastoma: "https://commons.wikimedia.org/wiki/Special:FilePath/Singapore_rhododendron_(Melastoma_malabathricum).jpg",
+  bertolonia: "https://commons.wikimedia.org/wiki/Special:FilePath/Bertolonia_sanguinea.jpg",
+  dissotis: "https://commons.wikimedia.org/wiki/Special:FilePath/Dissotis_rotundifolia_01.jpg",
+  dissotis2: "https://commons.wikimedia.org/wiki/Special:FilePath/Starr_020913-0010_Dissotis_rotundifolia.jpg",
+  clidemia: "https://commons.wikimedia.org/wiki/Special:FilePath/Clidemia_hirta_09.jpg",
+  clidemia2: "https://commons.wikimedia.org/wiki/Special:FilePath/Clidemia_hirta%2C_the_infamous_Koster%27s_Curse_(10006921655).jpg",
+  clidemia3: "https://commons.wikimedia.org/wiki/Special:FilePath/Clidemia_hirta_plant.jpg",
+  osbeckia: "https://commons.wikimedia.org/wiki/Special:FilePath/Osbeckia_octandra_L._9.JPG",
+  osbeckia2: "https://commons.wikimedia.org/wiki/Special:FilePath/Osbeckia_stellata.jpg",
+  osbeckia3: "https://commons.wikimedia.org/wiki/Special:FilePath/Osbeckia_stellata_139-8500.jpg",
+  monochaetum: "https://commons.wikimedia.org/wiki/Special:FilePath/Monochaetum_humboldtianum_(14469893929).jpg",
+  monochaetum2: "https://commons.wikimedia.org/wiki/Special:FilePath/Monocheatum_humboldtianum%2C_the_Pink_Princess_(14654297744).jpg",
+  monochaetum3: "https://commons.wikimedia.org/wiki/Special:FilePath/Monochaetum_humboldtianum_89-5367.jpg"
 };
+
 document.getElementById('banner').style.setProperty('--banner-img', `url(${IMAGE_MAP.medinilla}?width=1600)`);
 fetch('articles.json').then(r => r.json()).then(articles => {
   const grid = document.getElementById('article-grid');
